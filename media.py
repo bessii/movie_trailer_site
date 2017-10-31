@@ -1,6 +1,6 @@
     
 class Movie():
-    """ This class provides a way to store movie related information.
+    """This class provides a way to store movie related information.
     It contains the __init__ method which represents the constructor of
     the class and it serves as a blueprint to create different movie objects"""
     
