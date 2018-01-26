@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes
+import index
 
 '''create instances of class movie'''
 leap = media.Movie("Leap!",
@@ -13,7 +13,7 @@ spork = media.Movie("Spork",
                     "navigate her way through the annals of junior high.",
                     "https://images-na.ssl-images-amazon.com/images/I"
                     "/81c0Pzi2E7L._SL1500_.jpg",
-                    "https://www.youtube.com/watch?v=VDma1UM1FCk")                 
+                    "https://www.youtube.com/watch?v=VDma1UM1FCk")
 annie = media.Movie("Annie",
                     "Little Annie lives a hard knock life with her"
                     "calculating mother when suddenly everything changes",
@@ -49,7 +49,7 @@ lego_batman = media.Movie("The Lego Batman movie",
                           "https://www.youtube.com/watch?v=rGQUKzSDhrg")
 wonder_woman = media.Movie("Wonder Woman",
                            "Diana, princess of the Amazons, trained to be an "
-                           "unconquerable warrior leaves home for the first " 
+                           "unconquerable warrior leaves home for the first "
                            "time,fights in a war to end all wars. "
                            "She finally discovers her true powers and destiny",
                            "http://cdn.collider.com/wp-content/uploads/2017"
@@ -71,12 +71,12 @@ spider_man = media.Movie("Spider-Man: Homecoming",
                          "https://www.youtube.com/watch?v=U0D3AOldjMU")
 descendants = media.Movie("Descendants 2",
                           "Mal returns to the Isle of the Lost.",
-                          "https://a.dilcdn.com/bl/wp-content/uploads/sites"
-                          "/25/2017/01/D2-Heroes-Key-Art.jpg",
+                          "vignette.wikia.nocookie.net/thedescendants/images"
+                          "/3/37/Descendants-2-Junior-Novel.jpg",
                           "https://www.youtube.com/watch?v=g0FLzL7c49c")
 
 '''array of the listed movies above'''
 movies = [leap, spork, annie, lala_land, beauty_and_the_beast, lego_batman,
           wonder_woman, hidden_figures, spider_man, descendants]
 '''function call to open fresh_tomatoes.html'''
-fresh_tomatoes.open_movies_page(movies)
+index.open_movies_page(movies)
