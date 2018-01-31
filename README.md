@@ -22,3 +22,5 @@ You will need Python 2.7.x installed on your computer to be able to run this app
 
    1. Open movie-site folder
    1. Run 'entertainment_center.py' script
+   
+##### To view this project, got to https://bessii.github.io/movie_trailer_site/
