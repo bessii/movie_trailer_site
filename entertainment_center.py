@@ -2,11 +2,13 @@ import media
 import index
 
 '''create instances of class movie'''
-leap = media.Movie("Leap!",
-                   "An orphan girl chases her dreams of becoming a ballerina.",
-                   "http://nextoons.ir/wp-content/uploads/2017/08/Leap-"
-                   "2016-Poster-6.jpg",
-                   "https://www.youtube.com/watch?v=h-huA2o6OOY")
+hidden_figures = media.Movie("Hidden Figures",
+                             "Three very brilliant African-american women "
+                             "serve as the brains behind one of the greatest "
+                             "operations in history.",
+                             "https://i.ytimg.com/vi/U386EMeWo3I"
+                             "/movieposter.jpg",
+                             "https://www.youtube.com/watch?v=RK8xHq6dfAo")
 
 spork = media.Movie("Spork",
                     "A frizzy-haired, pink-cheeked outcast named Spork tries "
@@ -69,14 +71,17 @@ spider_man = media.Movie("Spider-Man: Homecoming",
                          "/Spider-Man"
                          "_Homecoming_poster.jpg",
                          "https://www.youtube.com/watch?v=U0D3AOldjMU")
-descendants = media.Movie("Descendants 2",
-                          "Mal returns to the Isle of the Lost.",
-                          "vignette.wikia.nocookie.net/thedescendants/images"
-                          "/3/37/Descendants-2-Junior-Novel.jpg",
-                          "https://www.youtube.com/watch?v=g0FLzL7c49c")
-
+beauty_and_the_beast = media.Movie("Beauty and the beast",
+                                   "A beautiful young woman imprisoned by a "
+                                   "beast in his castle.",
+                                   "https://images-na.ssl-images-amazon.com/"
+                                   "images/M/MV5BMTUwNjUxMTM4NV5BMl5BanBnXkFt"
+                                   "ZTgwODExMDQzMTI@._V1_UX182_CR0,0,182,268"
+                                   "_AL_.jpg",
+                                   "https://www.youtube.com/watch?v=OvW_L8"
+                                   "sTu5E")
 '''array of the listed movies above'''
-movies = [leap, spork, annie, lala_land, beauty_and_the_beast, lego_batman,
-          wonder_woman, hidden_figures, spider_man, descendants]
+movies = [hidden_figures, spork, annie, lala_land, beauty_and_the_beast, lego_batman,
+          wonder_woman, hidden_figures, spider_man, beauty_and_the_beast]
 '''function call to open fresh_tomatoes.html'''
 index.open_movies_page(movies)
